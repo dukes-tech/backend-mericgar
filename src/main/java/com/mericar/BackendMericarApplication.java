@@ -1,4 +1,4 @@
-package com.mericar.backend_mericar;
+package com.mericar;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
