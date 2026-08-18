@@ -1,4 +1,10 @@
 package com.mericar.repository;
 
-public class DetalleRegistroStockRepository {
+import com.mericar.entity.DetalleRegistroStock;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface DetalleRegistroStockRepository
+        extends JpaRepository<DetalleRegistroStock, Long> {
 }
