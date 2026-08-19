@@ -11,6 +11,8 @@ import org.springframework.web.bind.annotation.*;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.List;
+
+
 @RestController
 @RequestMapping("/api/usuarios")
 @CrossOrigin("*")
@@ -67,9 +69,9 @@ public class UsuarioController {
         }
 
     }
-    // ==========================================
+
 // LISTAR USUARIOS
-// ==========================================
+
 
 @GetMapping
 public ResponseEntity<?> listar() {
@@ -101,9 +103,9 @@ public ResponseEntity<?> listar() {
 }
 
 
-// ==========================================
+
 // ACTIVAR / DESACTIVAR USUARIO
-// ==========================================
+
 
 @PatchMapping("/{idUsuario}/estado")
 public ResponseEntity<?> cambiarEstado(
